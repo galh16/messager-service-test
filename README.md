@@ -2,9 +2,11 @@
 This project is used for testing purpose
 
 To install / init project
+
 npm install
 
-To run project (this project will run on PORT: 8080, mongodb PORT: 27017)
+To run project (this project will run on PORT: 8080, mongodb PORT: 27017) 
+
 npm start 
 
 This project is using 
