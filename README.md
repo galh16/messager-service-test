@@ -24,8 +24,9 @@ For mongodb can create new db called 'birthday_alert'
 There will be 4 collections created: 
 
 1. collections: cronjobs
-    name: {type: String, required: true},
-    type: {type: String, required: true},
+
+    name: {type: String, required: true}, 
+    type: {type: String, required: true}, 
     taskSchedule: {type: String, required: true}, // format cron (e.g., '*/5 * * * *')
     user_id: {type: String, required: true},
     response: {type: String, required: true},
@@ -34,15 +35,15 @@ There will be 4 collections created:
     description: {type: String, required: true},
     status: {type: String, required: true}
 
-2. collections: messagetexts
+3. collections: messagetexts
     type: {type: String, required: true},
     val: {type: String, required: true}
 
-3. collections: timezones
+4. collections: timezones
     country: {type: String, required: true},
     timezone: {type: String, required: true}
 
-4. collections: userprofiles
+5. collections: userprofiles
     firstName: {type: String, required: true},
     lastName: {type: String}, 
     email: {type: String, required: true},
