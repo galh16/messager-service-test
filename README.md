@@ -75,9 +75,9 @@ USERS
     - user: register 
 
     - user: login 
-            this login will create cookie that needed to run CRUD API
+            this login will create cookie that needed to run CRUD API (authtentication)
 
-    CRUP 
+    CRUD
     - user: get all user list 
     - user: update data
     - user: delete
